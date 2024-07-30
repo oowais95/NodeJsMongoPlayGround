@@ -62,7 +62,7 @@ const User = mongoose.model('User', UserSchema);
 // Sample API Route to Create a User
 app.post('/users', async (req, res) => {
 
-  console.log("add user api called ");
+  console.log("add user in mongoDB api called ");
   const { name, email, age } = req.body;
 
   try {
